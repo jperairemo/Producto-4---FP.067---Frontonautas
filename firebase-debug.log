@@ -1,0 +1,131 @@
+[debug] [2025-12-05T13:09:16.395Z] ----------------------------------------------------------------------
+[debug] [2025-12-05T13:09:16.401Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\omaym\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-12-05T13:09:16.402Z] CLI Version:   14.27.0
+[debug] [2025-12-05T13:09:16.402Z] Platform:      win32
+[debug] [2025-12-05T13:09:16.402Z] Node Version:  v22.20.0
+[debug] [2025-12-05T13:09:16.402Z] Time:          Fri Dec 05 2025 14:09:16 GMT+0100 (hora estándar de Europa central)
+[debug] [2025-12-05T13:09:16.403Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-05T13:09:16.685Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-05T13:09:16.685Z] > authorizing via signed-in user (omayma.khoyani@gmail.com)
+[debug] [2025-12-05T13:09:16.768Z] openjdk version "17.0.17" 2025-10-21
+OpenJDK Runtime Environment Temurin-17.0.17+10 (build 17.0.17+10)
+
+[debug] [2025-12-05T13:09:16.768Z] OpenJDK 64-Bit Server VM Temurin-17.0.17+10 (build 17.0.17+10, mixed mode, sharing)
+
+[debug] [2025-12-05T13:09:16.812Z] Parsed Java major version: 17
+[warn] !!  emulators: firebase-tools will drop support for Java version < 21 soon in firebase-tools@15. Please install a JDK at version 21 or above to get a compatible runtime. 
+[info] i  emulators: Starting emulators: functions, database, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, database, extensions"}}
+[debug] [2025-12-05T13:09:16.816Z] Checked if tokens are valid: true, expires at: 1764943245364
+[debug] [2025-12-05T13:09:16.817Z] Checked if tokens are valid: true, expires at: 1764943245364
+[debug] [2025-12-05T13:09:16.818Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/appbasket-e2ee2 [none]
+[debug] [2025-12-05T13:09:17.609Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/appbasket-e2ee2 200
+[debug] [2025-12-05T13:09:17.609Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/appbasket-e2ee2 {"projectNumber":"379389441288","projectId":"appbasket-e2ee2","lifecycleState":"ACTIVE","name":"AppBasket","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-11-20T12:07:28.591263Z"}
+[debug] [2025-12-05T13:09:17.621Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-05T13:09:17.621Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-05T13:09:17.622Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-12-05T13:09:17.627Z] Emulator locator file path: C:\Users\omaym\AppData\Local\Temp\hub-appbasket-e2ee2.json
+[debug] [2025-12-05T13:09:17.627Z] [hub] writing locator at C:\Users\omaym\AppData\Local\Temp\hub-appbasket-e2ee2.json
+[debug] [2025-12-05T13:09:17.637Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-12-05T13:09:17.644Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-05T13:09:17.645Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-05T13:09:17.645Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-05T13:09:17.645Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-12-05T13:09:17.668Z] defaultcredentials: writing to file C:\Users\omaym\AppData\Roaming\firebase\omayma_khoyani_gmail.com_application_default_credentials.json
+[debug] [2025-12-05T13:09:17.669Z] Setting GAC to C:\Users\omaym\AppData\Roaming\firebase\omayma_khoyani_gmail.com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\omaym\\AppData\\Roaming\\firebase\\omayma_khoyani_gmail.com_application_default_credentials.json"}}
+[debug] [2025-12-05T13:09:17.669Z] Checked if tokens are valid: true, expires at: 1764943245364
+[debug] [2025-12-05T13:09:17.669Z] Checked if tokens are valid: true, expires at: 1764943245364
+[debug] [2025-12-05T13:09:17.670Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/appbasket-e2ee2/adminSdkConfig [none]
+[debug] [2025-12-05T13:09:18.076Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/appbasket-e2ee2/adminSdkConfig 200
+[debug] [2025-12-05T13:09:18.076Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/appbasket-e2ee2/adminSdkConfig {"projectId":"appbasket-e2ee2","databaseURL":"https://appbasket-e2ee2-default-rtdb.europe-west1.firebasedatabase.app","storageBucket":"appbasket-e2ee2.firebasestorage.app"}
+[debug] [2025-12-05T13:09:18.100Z] Checked if tokens are valid: true, expires at: 1764943245364
+[debug] [2025-12-05T13:09:18.100Z] Checked if tokens are valid: true, expires at: 1764943245364
+[debug] [2025-12-05T13:09:18.100Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/appbasket-e2ee2 [none]
+[debug] [2025-12-05T13:09:18.339Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/appbasket-e2ee2 200
+[debug] [2025-12-05T13:09:18.339Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/appbasket-e2ee2 {"projectId":"appbasket-e2ee2","projectNumber":"379389441288","displayName":"AppBasket","name":"projects/appbasket-e2ee2","resources":{"hostingSite":"appbasket-e2ee2","realtimeDatabaseInstance":"appbasket-e2ee2-default-rtdb"},"state":"ACTIVE","etag":"1_6a12b7d0-8a78-4adc-b3f9-02d88f240dfa"}
+[debug] [2025-12-05T13:09:18.340Z] database rules config:  []
+[warn] !  database: Did not find a Realtime Database rules file specified in a firebase.json config file. The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"database"},"message":"Did not find a Realtime Database rules file specified in a firebase.json config file. The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2025-12-05T13:09:18.345Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2025-12-05T13:09:18.345Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-12-05T13:09:18.345Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2025-12-05T13:09:18.346Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\omaym\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.2.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false,"shell":false,"port":9000} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\omaym\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":9000}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2025-12-05T13:09:20.236Z] 14:09:20.235 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+ {"metadata":{"emulator":{"name":"database"},"message":"14:09:20.235 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started\r\n"}}
+[debug] [2025-12-05T13:09:20.557Z] 14:09:20.557 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+ {"metadata":{"emulator":{"name":"database"},"message":"14:09:20.557 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000\r\n"}}
+[debug] [2025-12-05T13:09:20.846Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\omaym\Desktop\Producto-4---FP.067---Frontonautas\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\omaym\\Desktop\\Producto-4---FP.067---Frontonautas\\functions\" for Cloud Functions..."}}
+[debug] [2025-12-05T13:09:20.870Z] Validating nodejs source
+[debug] [2025-12-05T13:09:22.129Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "24"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^13.6.0",
+    "firebase-functions": "^7.0.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.4.1"
+  },
+  "private": true
+}
+[debug] [2025-12-05T13:09:22.129Z] Building nodejs source
+[debug] [2025-12-05T13:09:22.130Z] Failed to find version of module node: reached end of search path C:\Users\omaym\Desktop\Producto-4---FP.067---Frontonautas\functions\node_modules
+[warn] !  functions: Your requested "node" version "24" doesn't match your global version "22". Using node@22 from host. 
+[debug] [2025-12-05T13:09:22.133Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-12-05T13:09:22.140Z] Found firebase-functions binary at 'C:\Users\omaym\Desktop\Producto-4---FP.067---Frontonautas\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8947
+
+[error] TypeError: functions.database.ref is not a function
+    at Object.<anonymous> (C:\Users\omaym\Desktop\Producto-4---FP.067---Frontonautas\functions\index.js:7:59)
+    at Module._compile (node:internal/modules/cjs/loader:1706:14)
+    at Object..js (node:internal/modules/cjs/loader:1839:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function._load (node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at loadModule (C:\Users\omaym\Desktop\Producto-4---FP.067---Frontonautas\functions\node_modules\firebase-functions\lib\runtime\loader.js:20:10)
+
+[debug] [2025-12-05T13:09:23.212Z] Got response code 400; body Failed to generate manifest from function source: functions.database.ref is not a function
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2025-12-05T13:09:27.266Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator   │ Host:Port      │ View in Emulator UI              │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Functions  │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions  │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Database   │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database   │
+├────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/extensions │
+└────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[warn] !  emulators: firebase-tools will drop support for Java version < 21 soon in firebase-tools@15. Please install a JDK at version 21 or above to get a compatible runtime. 
+[debug] [2025-12-05T13:14:23.918Z] 14:14:23.917 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - appbasket-e2ee2 successfully activated FBKV (SurveyIdle(0)) wait: 713ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"14:14:23.917 [NamespaceSystem-akka.actor.default-dispatcher-9] INFO com.firebase.core.namespace.NamespaceActor - appbasket-e2ee2 successfully activated FBKV (SurveyIdle(0)) wait: 713ms, init: 0ms\r\n"}}
+[debug] [2025-12-05T13:40:19.295Z] Received signal SIGHUP 1
