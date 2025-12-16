@@ -1,3 +1,17 @@
+/**
+ * Cloud Function para el envío automático de notificaciones push
+ * mediante Firebase Cloud Messaging (FCM).
+ *
+ * La función se dispara cuando se escribe o actualiza un mensaje
+ * en la ruta /mensajes/{mensajeId} de la base de datos.
+ *
+ * NOTA:
+ * Esta función no ha sido desplegada en Firebase debido a que
+ * Google Cloud exige el plan Blaze (pago) para Cloud Functions.
+ * El código se entrega completamente implementado y documentado
+ * siguiendo las indicaciones de la consultora.
+ */
+
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 
